@@ -26,7 +26,7 @@
     },
     "AUTO_REPLY_STATUS": {
       "description": "Enter yes for your bot to notify people that you have viewed there status",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "REPLY_STATUS_TEXT": {
@@ -61,7 +61,7 @@
     },
     "PUBLIC_MODE": {
       "description": "Type yes for public mode or no for private mode",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -75,7 +75,7 @@
       "required": false 
     },
     "OWNER_NUMBER": {
-      "description": "Enter your number eg, 2547xxxxxxx",
+      "description": "254796348167",
       "value": "",
       "required": false 
     },
@@ -86,7 +86,7 @@
     },
     "AUTO_REACT": {
       "description": "Enter your auto react messages",
-      "value": "no",
+      "value": "yes",
       "required": false 
     },
     "AUTO_REACT_STATUS": {
@@ -100,7 +100,7 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "Your session ID",
+      "description": "BWM-XMD;;;H4sIAAAAAAAAA61Vy46jRhT9l9raGmPM01JLw9PGtI0f+NVRFtVQQNm8XFW4jUf+imxGUWaZZb4n6/zBfEKE3Z1paZJORwoSUlEU955z7zmXTyAvMEUuqkH/EygJPkKGmiWrSwT6QK+iCBHQBiFkEPRBPUoNOPEVK6FP44GC1oWgTQ4cug/LqoO1x3PkHZlnGCEX34FLG5TVY4qDNwLC+oH59dybFnh9EGfjte7K7t6YcXN7ephJuwn0a18rlcXKuQOXJiLEBOexVSYoQwSmLqqnEJP3wR8MN1xqpY9LaZn5gyFczrPFYTVYeKHurOrpI6f0himamLn1TvhRVzttw6pwpCiW4rV/mvj3oqZ0ZK82ORoH4YO6b9n5gu21G3yK4xyFTohyhln97ro7jh6m51FvdzpvaibvS68icwxPY9hSBAUqeVU4drxPNzl9H3B9IM7YTEgGfvFUe65WFHExUkrqd0iPiqezrvcYc44sNJTXwKfkRSv7/1L3vbNenTAulrp8XEaet6oJNyfDMPD2kvDAy/XUL3eqfAp45X3wTy6nEE09TTwfhVRoHaPtuWO7POkI/HY7Zu6OM3muWznWK/iQVeQtlKmwNbA6S2MYJE9utB8hazBeqMHOCjzRuh+0DEER84i3uegwyDRuN3VoSeUi37pGJ80Pyw3t+j1OLbpB3t2NxOHaycz47spoj2onBP3upQ0IijFlBDJc5Nc9sQ1geFyggCB2rS7YybK8wElApfGBStYiwYKXTSadKjvIe9N0iLVZbaXwuFnTO9AGJSkCRCkKh5iygtRjRCmMEQX9H66NajgTlBUMjXAI+oAXBVmVeoLSleSP9MNTAhmFZfkhRwy0QUSKbIxAn5EKtcH1A8PiOVvgbNUQRYMXZNMyNc42TENSTUvj5YZhdkvq4wxRBrMS9LuyKPb4riKol/b/g4PneU3VJcsSTc02ZcPoKZxm87xu9SRFMfi3cYjdy49tkKMTu8m4KX6v2wYRJpQt86pMCxi+aPzlJQyCosrZos4Do1kgAvqvthFjOI9pw6zKIQkSfERGwwP0I5hS9Fe/EUHhC5fnGWYUYSNDzx5LE3HSBQ32JtB3tekL31cnvZ7q8orISZzA86oiyGpf+Njst0EOm1Dgj8+/fP3y8+evX376rbl//7Up0DP0JlOIGMQpbTo89TtyyxpY3oHE4+VgoFmxZsQa+Eb1xUE3iT6cNolaIuI9nuNqKmNRuid+bmnYNqLermTeMUP2fjG3/Ke7vwkC+qBzHvs5kSvbFcfjCk6mqembsyo7pJW2laREWD4FYd3drsaFs2n8Eq85vzgLPEo3rZFSp+XRcBMjP+qiG+aGHGWTtabdNdlCdMQBep1s762nZYyF0aQb35/JarVSq1Ivys6Gj1be8cipvYdA36gdc5IclEQfJplkG5TaGZ5XlYvSJXI9brqX0tO+9HzdS5YjXbt5+zpb0ueZjp9th6+PEUbXEfncj39r6g13Iz3u0n4V4nnm/tMsXwcrIYKbwzlThPtdS6gQljjxpDnJLFcF6dEnYp48WPu5pYBL44EyhSwqSNb8gPOQFFfNkKJqtOzkUfFGMkN3HHN2I55CyrRv/vg76/dup6akKIeQJo1kXSEZCo3Ya60sFwyyF7sBrbn0lgsufwIkmIbjmAgAAA==",
       "value": "",
       "required": true
     },    
@@ -111,7 +111,7 @@
     },
     "PRESENCE": {
       "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
+      "value": "yes",
       "required": false
     },
     "ANTIDELETE_SENT_INBOX": {
@@ -121,7 +121,7 @@
     },
     "ANTIDELETE_RECOVER_CONVENTION": {
       "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },	  
     "GROUPANTILINK": {
@@ -131,7 +131,7 @@
     },
     "CHATBOT": {
       "description": "Enable text chatbot (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "WELCOME_MESSAGE": {
@@ -146,7 +146,7 @@
     },
     "AUDIO_CHATBOT": {
       "description": "Enable audio chatbot (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "MENU_TOP_LEFT": {
